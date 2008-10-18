@@ -1,0 +1,13 @@
+After the download follow the steps below to run this application
+
+1] Extract the zip files
+
+2] Put all the documentum related property and jar files in the classpath
+
+3] run the org.eshark.dctm.MainApplication with 
+   "-Ddfc.properties.file=<path to dfc.properties file>/dfc.properties"  as VM parameter.
+
+ Like as follow
+ java -verbise org.eshark.dctm.MainApplication -Ddfc.properties.file=C:/Documentum/config/dfc.properties
+
+ If you are trying to execute from Eclipse put this "-Ddfc.properties.file=<path to dfc.properties file>/dfc.properties"  as VM parameter in the RUN Dialog.
